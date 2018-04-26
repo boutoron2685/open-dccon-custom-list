@@ -1,0 +1,121 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.2.14/spectre-exp.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.2.14/spectre-icons.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.2.14/spectre.min.css");
+
+.width100 {
+  width: 100%;
+  }
+
+#search:focus {
+  z-index: auto;
+  }
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    }
+  }
+
+body {
+  padding-top: 32px; padding-bottom: 32px;
+  background: #454d5d;
+  }
+
+.card {
+  border-width: 0px;
+  }
+
+.chip {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  }
+
+.tag-selected {
+  color: #fff;
+  background: #5764c6;
+  }
+
+.dccon {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  }
+
+/* .dccon>.card>.card-body {
+  height: 70px;
+  } */
+
+#search_clear {
+  cursor: pointer;
+  }
+
+.toast-container {
+  position: fixed;
+  bottom: 0px; right: 0px;
+  padding: 16px;
+  z-index: 400;
+  }
+
+.toast {
+  margin-top: 8px;
+  }
+
+.menu {
+  max-height: 360px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  }
+
+.dccon.tooltip::after {
+  width: 100%;
+  /* margin-left: 9px; margin-right: 9px; */
+  height: 72px;
+  /* padding: 12px; padding-right: 28px; */
+  padding:1.5rem;
+  /* white-space: pre-line; */
+  white-space: pre-wrap;
+  border-top-left-radius: 0px; border-top-right-radius: 0px;
+  }
+
+.dccon.tooltip.tooltip-bottom:focus::after,
+.tooltip.tooltip-bottom:hover::after {
+  opacity: 1;
+  -webkit-transform: translate(-50%, -81px);
+  -ms-transform: translate(-50%, -81px);
+  transform: translate(-50%, -81px);
+  }
+
+.col-15 {
+  width: 12.5%;
+  flex: none;
+  }
+
+div.card {
+  background: transparent;
+  }
+
+.img-background {
+  opacity: 0;
+  width: 100px;
+  height: 100px;
+  }
+
+.card, .card-image {
+  height: 100%;
+  }
+
+.card-image {
+  position: relative;
+  }
+
+.img-responsive.width100.lazy {
+  position: absolute;
+  top:0; bottom:0; left:0; right:0;
+  margin: auto;
+  }
