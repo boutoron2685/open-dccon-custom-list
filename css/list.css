@@ -3,7 +3,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.2.14/spectre.min.css");
 
 .width100 {
-  width: 100%;
+  width: 100%
   }
 
 #search:focus {
@@ -18,7 +18,7 @@
 
 body {
   padding-top: 32px; padding-bottom: 32px;
-  background: #454d5d;
+  background: #333A42;
   }
 
 .card {
@@ -26,8 +26,10 @@ body {
   }
 
 .chip {
-  margin-right: 8px;
-  margin-bottom: 8px;
+  background: #009494;
+  color: #FFFFFF;
+  border-radius: 1px;
+  margin-bottom: 5px; margin-right: 5px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -khtml-user-select: none;
@@ -35,8 +37,8 @@ body {
   }
 
 .tag-selected {
-  color: #fff;
-  background: #5764c6;
+  color: #054958;
+  background: #05F1F5;
   }
 
 .dccon {
@@ -73,22 +75,30 @@ body {
   }
 
 .dccon.tooltip::after {
-  width: 100%;
+  display: table;
+  background: rgba(255,255,255,0.5);
+  color: #000;
+  text-align: center;
+  vertical-align: middle;
+  border: solid #FFF 1px;
+  width: 100px;
   /* margin-left: 9px; margin-right: 9px; */
-  height: 72px;
+  height: 100px;
   /* padding: 12px; padding-right: 28px; */
-  padding:1.5rem;
+  padding: 10px;
   /* white-space: pre-line; */
   white-space: pre-wrap;
-  border-top-left-radius: 0px; border-top-right-radius: 0px;
+  border-radius: 0px;
+  box-shadow: 0px 0px 10px 2.5px #FFF;
+  top: 12px; left: 60px;
   }
 
 .dccon.tooltip.tooltip-bottom:focus::after,
 .tooltip.tooltip-bottom:hover::after {
   opacity: 1;
-  -webkit-transform: translate(-50%, -81px);
-  -ms-transform: translate(-50%, -81px);
-  transform: translate(-50%, -81px);
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
   }
 
 .col-15 {
@@ -98,6 +108,7 @@ body {
 
 div.card {
   background: transparent;
+  border-radius: 0px;
   }
 
 .img-background {
@@ -112,6 +123,7 @@ div.card {
 
 .card-image {
   position: relative;
+  width: 100px;
   }
 
 .img-responsive.width100.lazy {
