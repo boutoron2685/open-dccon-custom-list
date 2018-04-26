@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>이모티콘 선택기</title>
-  <link rel="shortcut icon" href="https://raw.githubusercontent.com/boutoron2685/open-dccon-custom-list/master/favicon.ico">
-  <link rel="stylesheet" href="https://raw.githubusercontent.com/boutoron2685/open-dccon-custom-list/master/css/list.css" />
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/list.css" />
 </head>
 
 <body>
@@ -300,7 +300,7 @@
     $(document).ready(function() {
       var dcconListUrl = getUrlParameter('dccon_list');
       if (dcconListUrl == undefined) {
-        dcconListUrl = 'https://raw.githubusercontent.com/boutoron2685/open-dccon-custom-list/master/js/dccon_list.json';
+        dcconListUrl = 'js/dccon_list.json';
       }
       $.getJSON(dcconListUrl).done(function(data) {
           dcconList = data.dccons;
