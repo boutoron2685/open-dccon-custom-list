@@ -1,6 +1,16 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.2.14/spectre-exp.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.2.14/spectre-icons.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.2.14/spectre.min.css");
+.headerbox{
+ background: #FFF;
+ top: 0; left: 0; right:0;
+ z-index: 300;
+ position: fixed;
+ }
+
+.intervalbox{
+ margin-bottom: 100px;
+ }
 
 .width100 {
   width: 100%
@@ -68,6 +78,11 @@ body {
   margin-top: 8px;
   }
 
+.toast-container .toast-primary {
+  background: rgba ();
+  border: solid black;
+  }
+
 .menu {
   max-height: 360px;
   overflow-y: scroll;
@@ -78,6 +93,7 @@ body {
   display: table;
   background: rgba(255,255,255,0.5);
   color: #000;
+  text-shadow: 0px 0px 1px white;
   text-align: center;
   vertical-align: middle;
   border: solid #FFF 1px;
@@ -130,53 +146,4 @@ div.card {
   position: absolute;
   top:0; bottom:0; left:0; right:0;
   margin: auto;
-  }
-
-.container {
-  max-width: 1280px;
-  padding: 15px;
-  vertical-align: middle;
-  }
-
-.bottom ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  }
-
-.bottom li {
-  text-align: center;
-  vertical-align: middle;
-  }
-
-.bottom li a {
-  display: inline-block;
-  text-decoration: none;
-  color: #FFF;
-  }
-
-.GotoTwitch ul {
-  float: left;
-  }
-
-.GotoTwitch li {
-  display: block;
-  background-color: #6441A4;
-  padding: 10px;
-  font-size: 18px;
-  }
-
-.Copyright ul {
-  float: right;
-  }
-
-.Copyright li {
-  float: left;
-  border-left: 1px solid #fff;
-  padding-left: 3px;
-  padding-right: 3px;
-  }
-
-.Copyright li:first-child {
-  border-left: none
   }
