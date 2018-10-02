@@ -16,6 +16,9 @@
     {"keywords" : ["세종대왕"], "tags": ["국뽕"], "path": "https://i.imgur.com/b8gPpuR.png"},
     {"keywords" : ["세종충격"], "tags": ["국뽕"], "path": "https://i.imgur.com/ULmrK9t.png"},
     {"keywords" : ["세종펄럭"], "tags": ["국뽕"], "path": "https://i.imgur.com/7D4YHAd.png"},
+    
+    {"keywords" : ["호국요람"], "tags": ["군대"], "path": "https://i.imgur.com/aG8ethd.png"},
+    {"keywords" : ["공군"], "tags": ["군대"], "path": "https://i.imgur.com/7D4YHAd.png"},
 
     {"keywords" : ["우리핵안녕", "우리핵안녕1"], "tags": ["우리핵", "움짤"], "path": "https://i.imgur.com/R89XmlJ.gif"},
     {"keywords" : ["우리핵안녕2"], "tags": ["우리핵", "움짤"], "path": "https://i.imgur.com/tRzNF0O.gif"},
@@ -87,10 +90,17 @@
     {"keywords" : ["삼수"], "tags": ["야인시대", "논디시콘"], "path": "https://i.imgur.com/VXTjOau.png"},
     {"keywords" : ["미군양반"], "tags": ["야인시대", "논디시콘", "움짤"], "path": "https://i.imgur.com/aWiELpy.gif"},
 
+    {"keywords" : ["태양만세"], "tags": ["소울 시리즈", "움짤"], "path": "https://i.imgur.com/Vgg62Ja.gif"},
+    {"keywords" : ["태양만세2"], "tags": ["소울 시리즈", "움짤"], "path": "https://i.imgur.com/KgqHdj5.gif"},
+    
     {"keywords" : ["호우"], "tags": ["축구", "움짤"], "path": "https://i.imgur.com/tgvupys.gif"},
     {"keywords" : ["ㄱㄴㄱㄴ"], "tags": ["축구", "움짤"], "path": "https://i.imgur.com/PuGHaHy.gif"},
     {"keywords" : ["황가드"], "tags": ["축구", "움짤"], "path": "https://i.imgur.com/i2D0biE.gif"},
 
+    {"keywords" : ["아칸"], "tags": ["블리자드", "스타", "움짤"], "path": "https://i.imgur.com/xtmFKp3.gif"},
+    {"keywords" : ["고짐고"], "tags": ["블리자드", "스타"], "path": "https://i.imgur.com/skkH8YF.png"},
+    {"keywords" : ["겉바속촉"], "tags": ["블리자드", "워크래프트", "가로쉬", "움짤"], "path": "https://i.imgur.com/3beCmeT.gif"},
+    {"keywords" : ["난죽택"], "tags": ["블리자드", "워크래프트", "가로쉬", "움짤"], "path": "https://i.imgur.com/AZhIfZz.gif"},
     {"keywords" : ["짜잔"], "tags": ["블리자드", "개발자", "움짤"], "path": "https://i.imgur.com/G53uwl4.gif"},
     {"keywords" : ["잔짜잔"], "tags": ["블리자드", "개발자", "움짤"], "path": "https://i.imgur.com/qZ4MBbL.gif"},
     {"keywords" : ["짜잔쿵"], "tags": ["블리자드", "개발자", "움짤"], "path": "https://i.imgur.com/gtUGeCR.gif"},
@@ -104,6 +114,8 @@
     {"keywords" : ["BBAB"], "tags": ["블리자드", "개발자", "움짤"], "path": "https://i.imgur.com/PqiDl8e.gif"},
     {"keywords" : ["벤브니뮤"], "tags": ["블리자드", "개발자", "움짤"], "path": "https://i.imgur.com/xQVMkct.gif"},
     {"keywords" : ["셰프"], "tags": ["블리자드", "개발자"], "path": "https://i.imgur.com/uWCeMEi.png"},
+    {"keywords" : ["셰프니뮤"], "tags": ["블리자드", "개발자", "움짤"], "path": "https://i.imgur.com/pI1FxbK.gif"},
+    {"keywords" : ["어케이겼노"], "tags": ["블리자드", "개발자", "움짤"], "path": "https://i.imgur.com/PbhKAEQ.gif"},
 
     {"keywords" : ["토드흐뭇"], "tags": ["토드", "개발자"], "path": "https://i.imgur.com/SDjkKXP.png"},
     {"keywords" : ["토드불만"], "tags": ["토드", "개발자"], "path": "https://i.imgur.com/i3YCbto.png"},
