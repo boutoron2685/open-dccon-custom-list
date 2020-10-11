@@ -24,21 +24,79 @@ body{
  z-index: 300;
  }
 
+.top-menu {
+    position: relative;
+    margin: 0px 10px 20px;
+    list-style: none;
+    float: left;
+    color: #adafb2;
+    font-size: 11px;
+    }
+
 .headerbox .logo{
+    position: relative;
     font-family: 'Jeju Gothic';
     font-size: 24px;
     font-weight: bold;
     color:#1db954;
-    margin: 10px;
-    margin-left: 30px;
+    
     }
+
+li.menu-item:hover {
+    color: #1db954 !important;
+    }
+
 .tags{
     display: none;
     }
 
 .intervalbox{
-    height: 150px;
+    height: 150px;/*검색바 간격*/
     }
+
+div.column.col-xs-12.col-md-10 {
+    width: auto;
+    }/*검색바 길이*/
+
+.input-group .input-group-addon {
+    background-color: #0000;
+    border: 0;
+    padding: 5px 0px 5px 10px;
+    color: #282828;
+    }
+
+.input-inline.width100 {
+    background: #FFF;
+    border-radius: 50px;
+    transition: 0.3s;
+    }/* 검색배경 */
+
+.input-inline.width100:hover {
+    box-shadow: 0px 0px 5px #1db954;
+    transition: 0.3s;
+    }
+
+div.form-autocomplete-input.form-input {
+    width: 215px;
+    background: #0000;
+    border: 0;
+    }
+
+#search.form-input {
+    background: #0000;
+    padding: 0 0 0 0;
+    font-family: 'Jeju Gothic';
+    color: #282828;
+    }
+
+#search.form-input::placeholder {
+    color: #a0a0a0;
+    }
+
+i#search_clear.form-icon {
+    background: #0000;
+    color: #a0a0a0;
+    } /*검색지우기*/
 
 .chip {
   width: 96px;
@@ -66,11 +124,6 @@ body{
   }
 .tag-selected:hover {
   background: #1db954;
-  }
-
-
-.width100 {
-  width: 100%
   }
 
 #search:focus {
@@ -137,6 +190,7 @@ body{
     margin: 10px;
     padding: 0px;
     }
+
 .dccon.tooltip:after {
     background: #1ed760;
     border-radius: 50px;
@@ -146,19 +200,19 @@ body{
 
 div.card {
     display: grid;
-    position:relative;
+    position: relative;
     background: transparent;
     border-radius: 0px;
     border: 0;
-    max-width: 100px;
-    min-width: 100px;
-    max-height: 100px;
+    width: 100px;
+    height: auto !important;
+    overflow: hidden; /*이미지 테두리 가두기*/
     }
 
 .card-image{
-    overflow: hidden;
     top:0; bottom:0; left:0; right:0;
     }
+
 .img-responsive.width100.lazy {
     position: absolute;
     top:0; bottom:0; left:0; right:0;
@@ -167,16 +221,18 @@ div.card {
     }
 
 .card-image img{
-    max-width: 100px;
+    max-width: auto;
+    height: auto !important;
     filter: blur(0px);
     transform:scale(1);
     margin: 0;
     padding: 0;
+    transition: all 0.3s ease-in-out;
     }
 
 .card-image:hover img{
     filter: blur(2px);
-    transform: scale(0.8);
+    transform: scale(1.2);
     transition: all 0.3s ease-in-out;
     }
 
@@ -184,7 +240,7 @@ div.card {
     /*opacity: 0;*/
     border-radius: 0;
     background: #404040;
-    max-height: 100px;
+    max-width: 100%;
     }
 
 .credit{
